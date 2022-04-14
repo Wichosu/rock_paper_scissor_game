@@ -3,5 +3,5 @@ import random
 from player import player
 class ai(player):
 
-    def aiSelection(self):
-        self.setMove(random.randint(1, 3))
+    def ai_selection(self):
+        self.set_move(random.randint(1, 3))
